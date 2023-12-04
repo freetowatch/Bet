@@ -1,5 +1,52 @@
 {
   "rewrites": [
-    {"source": "/(.*)", "destination": "/Trailers.html"}
+    {
+      "source": "/",
+      "destination": "/New/index.html"
+    },
+    {
+      "source": "/main",
+      "destination": "/New/index.html"
+    },
+    {
+      "source": "/movies",
+      "destination": "/New/movie_details.html"
+    },
+    {
+      "source": "/news",
+      "destination": "/New/New.html"
+    },
+    {
+      "source": "/release-date",
+      "destination": "/New/release_date.html"
+    },
+    {
+      "source": "/results",
+      "destination": "/New/results.html"
+    },
+    {
+      "source": "/search",
+      "destination": "/New/search.html"
+    },
+    {
+      "source": "/system",
+      "destination": "/New/systeme.html"
+    },
+    {
+      "source": "/trailers",
+      "destination": "/New/Trailers.html"
+    },
+    {
+      "source": "/static/(.*)",
+      "destination": "/New/static/$1"
+    },
+    {
+      "source": "/templates/(.*)",
+      "destination": "/New/templates/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/New/index.html"
+    }
   ]
 }
